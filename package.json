@@ -4,6 +4,7 @@
   },
   "scripts": {
     "build": "bun build ./index.html --minify --outdir=dist",
-    "dev": "bun run ./index.html --hot"
+    "dev": "bun run ./index.html --hot",
+    "deploy": "bun run build && git subtree push --prefix dist origin gh-pages"
   }
 }
