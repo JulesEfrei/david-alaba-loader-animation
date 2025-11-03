@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "gsap": "^3.13.0"
+  },
+  "scripts": {
+    "build": "bun build ./index.html --minify --outdir=dist",
+    "dev": "bun run ./index.html --hot"
+  }
+}
